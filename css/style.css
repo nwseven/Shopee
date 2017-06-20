@@ -1,0 +1,75 @@
+@font-face {
+  font-family: Open Sans Regular;
+  src: url(../fonts/OpenSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: Open Sans Bold;
+  src: url(../fonts/OpenSans-Bold.ttf);
+}
+
+@font-face {
+  font-family: Raleway ExtraBold;
+  src: url(../fonts/Raleway-ExtraBold.ttf);
+}
+
+body, html{
+  height: 100%;
+  color:#000;
+  width: auto;
+  z-index:1;
+  background-color: #FFF;
+  font-family: Open Sans Regular;
+}
+
+h1, h2{
+  color: #ff6633;
+  font-family: Open Sans Bold;
+}
+
+.underlined{
+	text-decoration:underline;
+}
+
+.col-md-4{
+	padding: 0px 50px;
+}
+
+.orange{
+  background-color:#fff5f3;
+  margin-bottom: 50px;
+}
+
+.orangefont{
+  color:#ff6633;
+}
+
+.formstyle{
+  width:50%;
+  margin-top:150px;
+}
+
+.formstyle input{
+  margin-bottom:20px;
+}
+
+.orangebutton{
+  background-color: #ff5823;
+  border-color: #ff5823;
+  color: #FFF;
+  font-family: Raleway ExtraBold;
+}
+
+.orangeborder{
+  border: 3px solid #ff5823;
+}
+
+.orangebtnunclickable{
+  background-color: #ff5823;
+  border-color: #ff5823;
+  color: #FFF;
+  padding:0px 3px 0px 3px;
+  cursor:not-allowed;
+  pointer-events:none;
+  border-radius:0px;
+}
